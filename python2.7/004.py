@@ -23,7 +23,7 @@ def prob4():
         for n2 in xrange(n1, 99, -1):
             prod = n1 * n2
 
-            if max_ >= n1 ** 2:
+            if max_ >= n1 * n1:
                 return max_
 
             if max_ >= prod:
